@@ -94,6 +94,9 @@ main {
     background-color: white;
     padding: 15px;
     margin: 0px 77px 0px 77px;
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
 }
 
 main.secundario {
