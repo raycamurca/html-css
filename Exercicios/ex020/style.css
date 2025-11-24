@@ -1,0 +1,26 @@
+@charset "UTF-8"; 
+
+
+div {
+    background-color: rgb(149, 160, 156);
+    text-align: center;  
+    height: 100px;
+    width: 100px;
+    border: solid;
+    display: inline-block; 
+    
+}
+
+div#d1:hover {
+    background-color: rgb(21, 60, 255);
+}
+
+div:hover {
+    background-color: blueviolet;
+}
+
+/* height--> altura
+width--> largura
+display: inline-block;--> mesma linha
+border: solid;--> bordas
+div:hover--> ao passa o mouse algo acontece*/

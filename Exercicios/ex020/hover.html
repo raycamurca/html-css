@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to left,#B142CA, #914FA0, #D027F4, #6E4D75, #483E4B);
+            color: white;
+            
+
+        }
+
+        h1 {
+            text-align: center;
+            background-color: blue;
+        }
+
+        div#d1 {
+            color: rgb(95, 255, 2);
+        }
+
+        div:hover {
+            color: red;
+        }
+        
+        div > p {
+            display: none;
+        }
+
+        div:hover>p {
+            display: block;
+            background-color: blue;
+            color: white;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Você é Ispecial</h1>
+    <p>clique no texto abaixo</p>
+    <div id="d1">
+        clique aqui
+        <p>EU TE AMUUUU, não desista, tenho muito orgulho de vc, vc é meu tudo, nunca esqueça, estou aqui, minha baixinha!!</p>
+    </div>
+    <p>do seu amor!!</p>
+</body>
+</html>

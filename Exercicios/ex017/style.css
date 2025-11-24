@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    /* Medidas absolutas
+    cm, mm, in(polegada), px, pt, pc(paica)
+
+    Medidas relativas
+    em(altura do M(maíusculo), ex, rem, vw, vh, %
+
+    geralmente 1em = 16px
+
+    Usa px ou em
+    */
+
+    font: italic normal 1em arial sans-serif
+
+    /* shorthand font
+    font-style->weigth->size->family
+    --------------------------------
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline;
+    */
+}
+
+    /* weight(peso, Família tipográfica) width(largura) height(altura) */
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
