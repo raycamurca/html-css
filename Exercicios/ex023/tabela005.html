@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Exercicio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            border: solid 1px black;
+            padding: 10px;
+            color: white;
+            background-color: gray;
+            font-weight: bold;
+        }
+
+        th,td {
+            border: solid 1px black;
+            padding: 10px;
+        }
+
+        .nome, .idade {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela de Exercicio</h1>
+
+    <table>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>53</td>
+            <td>Boleira</td>
+        </tr>
+
+        <tr>
+            <td>Minye</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Design de Sombracelha</td>
+        </tr>
+
+        <tr>
+            <td>Afonso</td>
+            <td>M</td>
+            <td>49</td>
+            <td>Agricultor</td>
+        </tr>
+
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="profissao">
+        </colgroup>
+    </table>
+</body>
+</html>
