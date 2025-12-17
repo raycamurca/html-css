@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /* CONFIGURAÇÕES PORTRAIT (RETRATO) */
+
+body {
+    /* color > url > position > repeat > [ size ] > attachment size não funciona */
+    background-image: url('../imagens/cev-portrait.jpg');
+    background-position: center bottom;
+}
