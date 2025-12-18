@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu-Responsivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Site Responsivo</h1>
-        <menu>
+        <span class="material-symbols-outlined" id="menu-burguer" onclick="clickMenu()">menu</span>
+        <menu id="nav">
             <ul>
                 <a href="#">
                     <li>Home</li>
@@ -44,5 +46,14 @@
             <p>Nosso objetivo é oferecer uma experiência simples, clara e agradável para todos os visitantes, independentemente do dispositivo utilizado. O Site Responsivo foi desenvolvido pensando em acessibilidade, organização e facilidade de navegação, reunindo conteúdos relevantes de esportes, tecnologia e animes em um só lugar. Aqui você pode se informar, aprender e se divertir com textos atualizados, linguagem fácil de entender e uma estrutura pensada para o dia a dia. Continue explorando, acompanhe as novidades e volte sempre para conferir novos conteúdos preparados especialmente para você.</p>
         </article>
     </main>
+    <script>
+        function clickMenu () {
+            if (nav.style.display == 'block') {
+                nav.style.display = 'none'
+            } else {
+                nav.style.display ='block'
+            }
+        }
+    </script>
 </body>
 </html>
