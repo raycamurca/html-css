@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu-Responsivo</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/mq.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-        <h1>Site Responsivo</h1>
+        <h1>Menu-hambúrguer</h1>
         <span class="material-symbols-outlined" id="menu-burguer" onclick="clickMenu()">menu</span>
         <menu id="nav">
             <ul>
@@ -57,6 +58,14 @@
     </footer>
 
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 600) {
+                nav.style.display = 'block'
+            } else {
+                nav.style.display = 'none'
+            }
+        }
+
         function clickMenu () {
             if (nav.style.display == 'block') {
                 nav.style.display = 'none'

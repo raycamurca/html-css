@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* Tablet  
+mínimo 600px
+
+Notebook  
+mínimo 1024px
+
+Desktop  
+mínimo 1280px
+
+Telas grandes  
+mínimo 1920px */
+
+@media screen and (min-width:600px) {
+    span#menu-burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu ul {
+        background-color: #1a1a8b;
+    }
+
+    menu a {
+        display: inline-block;
+    }
+    
+    menu li:hover {
+        background-color: rgb(18, 18, 203);
+        border-radius: 10px;
+        padding: 13px;
+        transition: 0.5s;
+    }
+
+    main {
+        width: 600px;
+    }
+}

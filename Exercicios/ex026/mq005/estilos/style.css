@@ -32,7 +32,7 @@ span#menu-burguer {
 }
 
 span#menu-burguer:hover {
-    background-color: #1c1c67;
+    background-color: #0b0b23;
 }
 
 menu {
@@ -41,20 +41,24 @@ menu {
 
 menu ul {
     list-style-type: none;
+    background-color: rgb(31, 31, 110);
 }
 
 menu a {
-    display: block;
     padding: 10px;
     text-decoration: none;
     color: white;
-    background-color: #121298b8;
     text-align: center;
-    border-top: 3px solid blue;
 }
 
-menu a:hover {
-    background-color: #1c1c67;
+menu li {
+    padding: 10px;
+}
+
+menu li:hover {
+    background-color: #3b3bae;
+    padding: 13px;
+    transition: 0.5s;
 }
 
 main {
@@ -64,7 +68,6 @@ main {
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
-    flex: 1;
 }
 
 article h1, h2, h3 {
