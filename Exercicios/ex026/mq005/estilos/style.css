@@ -82,6 +82,7 @@ footer {
     color: white;
     margin-top: 20px;
     padding: 10px;
+    bottom: fixed;
 }
 
 footer p {
