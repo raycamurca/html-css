@@ -82,7 +82,7 @@ footer {
     color: white;
     margin-top: 20px;
     padding: 10px;
-    bottom: fixed;
+    margin-bottom: fixed;
 }
 
 footer p {
@@ -91,6 +91,10 @@ footer p {
 
 footer a {
     text-decoration: none;
+}
+
+footer li {
+    list-style-type: none;
 }
 
 footer a:hover {
