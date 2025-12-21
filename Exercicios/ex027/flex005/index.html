@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Center</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightyellow;
+        }
+
+        main.conteiner {
+            background-color: lightgreen;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        section.tela-login {
+            background-color: lightblue;
+            height: 500px;
+            width: 400px;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main class="conteiner">
+        <section class="tela-login">
+            <h1>Tela de Login</h1>
+            <p>Bem-vindo(a) Novamente, Faça login para acessar sua conta.</p>
+            <form action="">
+                <label for="iuser">Email</label>
+                <input type="email" name="user" id="iuser" placeholder="Seu email">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
