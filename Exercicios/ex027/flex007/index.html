@@ -9,30 +9,69 @@
             background-color: red;
             display: flex;
             margin-top: 30px;
-            flex-direction: row;
+            flex-flow: row wrap;
         }
 
         div.item {
             background-color: blue;
             border: 1px solid black;
-            flex: auto;
             text-align: center;
-            padding: 10px;
+            padding: 20px;
+        }
+
+        div#i1 {
+            order: 0;
+        }
+
+        div#i2 {
+            order: 0;
+        }
+
+        div#i3 {
+            order: 0;
+        }
+
+        div#i4 {
+            order: 0;
+        }
+
+        div#i5 {
+            order: 0;
+        }
+
+        div#i6 {
+            order: 0;
+        }
+
+        div#i7 {
+            order: -7;
+        }
+
+        div#i8 {
+            order: 0;
+        }
+
+        div#i9 {
+            order: 0;
+        }
+
+        div#i10 {
+            order: 0;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
-        <div class="item">6</div>
-        <div class="item">7</div>
-        <div class="item">8</div>
-        <div class="item">9</div>
-        <div class="item">10</div>
+        <div class="item" id="i1">1</div>
+        <div class="item" id="i2">2</div>
+        <div class="item" id="i3">3</div>
+        <div class="item" id="i4">4</div>
+        <div class="item" id="i5">5</div>
+        <div class="item" id="i6">6</div>
+        <div class="item" id="i7">7</div>
+        <div class="item" id="i8">8</div>
+        <div class="item" id="i9">9</div>
+        <div class="item" id="i10">10</div>
     </div>
 </body>
 </html>
