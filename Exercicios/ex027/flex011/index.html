@@ -17,17 +17,32 @@
             border: 1px solid black;
             text-align: center;
             padding: 10px;
-            flex-basis: 150px;
+            flex-basis: 100px;
             flex-shrink: 1;
             flex-grow: 0;
+        }
+
+        div#cx1 {
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+        div#cx2 {
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+
+        div#cx3 {
+            flex-grow: 2;
+            flex-shrink: 0;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
+        <div class="item" id="cx1">1</div>
+        <div class="item" id="cx2">2</div>
+        <div class="item" id="cx3">3</div>
     </div>
 </body>
 </html>
