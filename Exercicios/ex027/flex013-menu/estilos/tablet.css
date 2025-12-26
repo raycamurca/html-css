@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+header h1 {
+    text-align: left;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-right: -10px;
+}
