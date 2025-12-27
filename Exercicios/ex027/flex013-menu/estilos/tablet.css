@@ -1,13 +1,16 @@
 @charset "UTF-8";
 
-header h1 {
-    text-align: left;
-}
 
-header ul {
+header {
+    text-align: start;
     display: flex;
+    flex-flow: column nowrap;
 }
 
-header li {
-    margin-right: -10px;
+header a {
+    display: inline-block;
+}
+
+main {
+    max-width: 600px;
 }

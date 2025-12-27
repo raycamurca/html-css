@@ -12,25 +12,39 @@ body {
 }
 
 header {
-    background-color: lightcoral;
-    text-align: center;
+    background-color: lightblue;
     color: white;
+    text-align: center;
     padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 5px;
 }
 
-header li {
-    list-style-type: none;
+header h1 {
+    margin-bottom: 5px;
+}
+
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
     background-color: black;
-    margin: 7px 20px 10px 20px;
-    padding: 5px;
     border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightblue;
 }
 
 main {
     background-color: white;
+    margin: auto;
     padding: 10px;
     border-radius: 10px;
-    margin: 10px auto auto auto;
-    box-shadow: 1px 3px 2px black;
-    width: 95vw;
+    max-width: 90vw;
 }

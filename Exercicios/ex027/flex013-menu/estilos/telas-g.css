@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+header h1 {
+    flex-basis: 90px;
+}
+
+header a {
+    margin-right: 10px;
+}
+
+main {
+    max-width: 700px;
+}
