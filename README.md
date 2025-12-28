@@ -137,3 +137,29 @@ Curso de HTML5 e CSS3
 <a href="https://raycamurca.github.io/html-css/Exercicios/ex026/mq004/index.html">Ex026d</a>
 
 <a href="https://raycamurca.github.io/html-css/Exercicios/ex026/mq005/index.html">Ex026e</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex001/index.html">Ex027</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex002/index.html">Ex027b</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex003/index.html">Ex027c</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex004/index.html">Ex027d</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex005/index.html">Ex027e</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex006/index.html">Ex027f</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex007/index.html">Ex027g</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex008/index.html">Ex027h</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex009/index.html">Ex027i</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex010/index.html">Ex027j</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex011/index.html">Ex027k</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex012/index.html">Ex027l</a>
+
+<a href="https://raycamurca.github.io/html-css/Exercicios/ex027/flex013-menu/index.html">Ex027m</a>
