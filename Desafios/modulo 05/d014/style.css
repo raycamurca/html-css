@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.conteiner {
+    width: 90vw;
+    height: 100dvh;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 80px 40px 1fr 40px;
+    border: 2px solid red;
+    gap: 5px;
+    margin: auto;
+}
+
+.topo {
+    grid-area: 1 / 1 / 2 / -1;
+    border: 2px solid green;
+}
+
+.menu {
+    grid-area: 2 / 1 / 3 / -1;
+    border: 2px solid yellow;
+}
+
+.principal {
+    grid-area: 3 / 1 / -2 / -2;
+    border: 2px solid blue;
+}
+
+.secundario {
+    grid-area: 3 / -2 / -2 / -1;
+    border: 2px solid  rebeccapurple;
+}
+
+.rodape {
+    grid-area: -2 / 1 / -1 / -1;
+    border: 2px solid saddlebrown;
+}
